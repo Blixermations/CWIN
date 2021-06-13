@@ -1,0 +1,15 @@
+E:\CWIN\bin\Debug\CWIN.exe.config
+E:\CWIN\bin\Debug\CWIN.exe
+E:\CWIN\bin\Debug\CWIN.pdb
+E:\CWIN\bin\Debug\CWIN.xml
+E:\CWIN\obj\Debug\CWIN.vbprojAssemblyReference.cache
+E:\CWIN\obj\Debug\CWIN.Form1.resources
+E:\CWIN\obj\Debug\CWIN.Resources.resources
+E:\CWIN\obj\Debug\CWIN.othertab.resources
+E:\CWIN\obj\Debug\CWIN.vbproj.GenerateResource.cache
+E:\CWIN\obj\Debug\CWIN.vbproj.CoreCompileInputs.cache
+E:\CWIN\obj\Debug\CWIN.exe
+E:\CWIN\obj\Debug\CWIN.xml
+E:\CWIN\obj\Debug\CWIN.pdb
+E:\CWIN\obj\Debug\CWIN.loading_screen.resources
+E:\CWIN\obj\Debug\CWIN.dummy_screen.resources
