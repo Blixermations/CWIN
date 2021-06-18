@@ -1,0 +1,17 @@
+;The comment below contains SFX script commands
+
+Setup="C:\Users\Allied Gaming\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\osCWIN.lnk"
+Title=PINGnul Installer
+Text
+{
+Welcome to the CWIN installer!
+The version you will be installing is: "proto 0.6" Press the next/continue button to continue 
+}
+License=CWIN LICENSE
+{
+BEFORE INSTALLING: Please do not share this to anyone else, 
+this os is for people that i have given permision to use.
+If i see a unknown download, ill wipe this os and its memory off the website forever.
+Thanks! CWIN Creator 
+}
+Shortcut=T, CWIN.exe, , "prototype os 0.6", osCWIN, app.ico

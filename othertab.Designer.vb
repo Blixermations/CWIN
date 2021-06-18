@@ -117,6 +117,7 @@ Partial Class othertab
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.IsMdiContainer = True
         Me.Name = "othertab"
         Me.Text = "othertab"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

@@ -13,3 +13,8 @@ E:\CWIN\obj\Debug\CWIN.xml
 E:\CWIN\obj\Debug\CWIN.pdb
 E:\CWIN\obj\Debug\CWIN.loading_screen.resources
 E:\CWIN\obj\Debug\CWIN.dummy_screen.resources
+E:\CWIN\obj\Debug\CWIN.window_test.resources
+E:\CWIN\bin\Debug\CWIN.exe.manifest
+E:\CWIN\bin\Debug\CWIN.application
+E:\CWIN\obj\Debug\CWIN.exe.manifest
+E:\CWIN\obj\Debug\CWIN.application

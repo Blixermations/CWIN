@@ -9,6 +9,8 @@
     End Sub
 
     Private Sub loading_screen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Cursor.Hide()
         Timer1.Start()
+
     End Sub
 End Class

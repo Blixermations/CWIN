@@ -22,35 +22,39 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim Button3 As System.Windows.Forms.Button
+        Me.components = New System.ComponentModel.Container()
+        Dim dhsu As System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Button3 = New System.Windows.Forms.Button()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        dhsu = New System.Windows.Forms.Button()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button3
+        'dhsu
         '
-        Button3.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Button3.BackColor = System.Drawing.Color.Blue
-        Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Button3.FlatAppearance.BorderColor = System.Drawing.Color.Aqua
-        Button3.FlatAppearance.BorderSize = 5
-        Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Button3.Font = New System.Drawing.Font("Arial", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Button3.Location = New System.Drawing.Point(299, 340)
-        Button3.Name = "Button3"
-        Button3.Size = New System.Drawing.Size(199, 79)
-        Button3.TabIndex = 5
-        Button3.Text = "Other"
-        Button3.UseVisualStyleBackColor = False
-        AddHandler Button3.Click, AddressOf Me.Button3_Click
+        dhsu.Anchor = System.Windows.Forms.AnchorStyles.Top
+        dhsu.BackColor = System.Drawing.Color.Blue
+        dhsu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        dhsu.FlatAppearance.BorderColor = System.Drawing.Color.Aqua
+        dhsu.FlatAppearance.BorderSize = 5
+        dhsu.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        dhsu.Font = New System.Drawing.Font("Arial", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        dhsu.Location = New System.Drawing.Point(299, 340)
+        dhsu.Name = "dhsu"
+        dhsu.Size = New System.Drawing.Size(199, 79)
+        dhsu.TabIndex = 5
+        dhsu.Text = "Other"
+        dhsu.UseVisualStyleBackColor = False
+        AddHandler dhsu.Click, AddressOf Me.Button3_Click
         '
         'Label1
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(290, 58)
         Me.Label1.Name = "Label1"
@@ -106,20 +110,27 @@ Partial Class Form1
         Me.Button4.Text = "App Movment Test"
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Button3)
+        Me.Controls.Add(dhsu)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.IsMdiContainer = True
         Me.Name = "Form1"
         Me.Text = "pingnull window screen"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -129,4 +140,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
