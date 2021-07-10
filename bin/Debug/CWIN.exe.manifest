@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CWIN.exe" size="141328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CWIN.exe" size="145424">
       <assemblyIdentity name="CWIN" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>R1kSsIMAqwmaMaPHO7/VqID58YpBppkTY1WyBJB14t0=</dsig:DigestValue>
+        <dsig:DigestValue>tK7gdY5a/sAithCtX4JL+5p8GFAWXyOufC4MTbUNrkA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
